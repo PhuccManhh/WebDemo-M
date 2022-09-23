@@ -850,14 +850,13 @@ font-size: 1.4rem;
 
 /* liên hệ  */
 .footer-tery {
-  list-style: none;
-  width: 247px;
   background-color: rgb(255 126 28);
-  line-height: 37px;
-  border-radius: 7px;
-  margin-top: 14px;
-  display: flex;
-  margin-left: -24px;
+    height: 35px;
+    width: 244px;
+    display: flex;
+    border-radius: 9px;
+    margin-top: 12px;
+    cursor: pointer;
 }
 
 .footer-tery:hover {
@@ -866,38 +865,26 @@ font-size: 1.4rem;
 
 .footer-tery:hover .footer-tery-img {
   display: block;
-  margin-left: 11px;
+  margin-left: 9px;
+  margin-top: 9px;
 }
 .footer-tery:hover .footer-tom__trullo {
-  margin-left: 4px;
+  margin-left: 6px;
 }
 
 .footer-tom__trullo {
   text-decoration: none;
   color: var(--white-color);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   margin: auto;
 }
 
 .footer-tom__img {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: var(--white-color);
-  margin-left: 29px;
+  margin-left: 46px;
 }
 
 .footer-tery-img {
   display: none;
 }
-
-/* .footer__bottom {
-  padding: 8px 0;
-  background-color: #f5f5f5;
-  margin-top: 34px;
-}
-
-.footer__text {
-  margin: 0;
-  font-size: 1.2rem;
-  text-align: center;
-  color: #737373;
-} */

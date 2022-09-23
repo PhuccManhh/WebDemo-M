@@ -19,6 +19,7 @@
 
     .header {
         height: 112px;
+        justify-content: space-between;
     }
 
     .logo-img img {
@@ -128,6 +129,11 @@
         display: none;
     }
 
+    .header {
+        height: 99px;
+        justify-content: space-between;
+    }
+
     .container {
         background-color: #efefef;
         padding-top: 108px;
@@ -175,10 +181,6 @@
         margin: 13px 20px;
         margin-left: 19px;
     }
-   
-     .header {
-        height: 99px;
-    }
 
     .pagination {
         display: flex;
@@ -195,23 +197,24 @@
     }
 
     .footer-tery {
-        list-style: none;
-        width: 343px;
         background-color: rgb(255 126 28);
-        line-height: 37px;
-        border-radius: 7px;
-        margin-top: 14px;
+        height: 40px;
         display: flex;
-        margin-left: -9px;
+        width: 324px;
+        border-radius: 15px;
+        margin-top: 12px;
+        cursor: pointer;
     }
 
     .footer-tery:hover .footer-tery-img {
         display: block;
-        margin-left: 70px;
+        margin-left: 28px;
+        margin-top: 11px;
       }
       .footer-tery:hover .footer-tom__trullo {
-        margin-left: 10px;
+        margin-left: 8px;
       }
+    
     
     .footer-bitpun {
         padding-left: 23px;
@@ -266,5 +269,18 @@
         box-shadow: 0 0 7px #d8d3b9;
         z-index: 1;
         font-weight: 400;
+    }
+
+    .footer-tom__img {
+        font-size: 1.5rem;
+        color: var(--white-color);
+        margin-left: 41px;
+    }
+
+    .footer-tom__trullo {
+        text-decoration: none;
+        color: var(--white-color);
+        font-size: 1.8rem;
+        margin: auto;
     }
 }
