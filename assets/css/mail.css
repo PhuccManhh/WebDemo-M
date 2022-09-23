@@ -851,12 +851,13 @@ font-size: 1.4rem;
 /* liên hệ  */
 .footer-tery {
   background-color: rgb(255 126 28);
-    height: 35px;
-    width: 244px;
-    display: flex;
-    border-radius: 9px;
-    margin-top: 12px;
-    cursor: pointer;
+  height: 35px;
+  width: 254px;
+  display: flex;
+  border-radius: 9px;
+  margin-top: 12px;
+  margin-left: -17px;
+  cursor: pointer;
 }
 
 .footer-tery:hover {
