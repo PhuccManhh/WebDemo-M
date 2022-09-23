@@ -59,19 +59,19 @@
 
 
 .nav__mobile-close {
-  font-size: 4rem;
+   font-size: 3rem;
     color: rgb(161 169 166);
     position: absolute;
     top: 0;
-    right: -71px;
+    right: 0px;
 }
 
 .nav__mobile-leon {
-  font-size: 4rem;
-  color: rgb(161 169 166);
-  position: absolute;
-  top: 0;
-  left: -71px;
+  font-size: 3rem;
+    color: rgb(161 169 166);
+    position: absolute;
+    top: 0;
+    left: 0px;
 }
 
 .logo_input {
@@ -312,8 +312,6 @@ margin-left: 5px;
 .conten__input-list {
   display: flex;
   background-color: #faba48;
-  width: 68px;
-  padding-left: 12px;
   border-radius: 2px;
   position: relative;
 }
@@ -322,7 +320,8 @@ margin-left: 5px;
 .conten__input-text {
   font-size: 1.4rem;
   color: var(--white-color);
-
+  width: 44px;
+  padding-left: 15px;
 }
 
 .conten__input-icons {
@@ -343,7 +342,7 @@ margin-left: 5px;
   width: 134px;
   background-color: #faba48;
   top: 82%;
-  margin-left: -12px;
+  margin-left: 0px;
   border-radius: 9px;
   padding-left: 0;
   display: none;
@@ -393,8 +392,8 @@ margin-left: 5px;
    .conten__input-logo {
     display: flex;
     background-color: #faba48;
-    width: 68px;
-    padding-left: 12px;
+    width: 73px;
+    padding-left: 6px;
     border-radius: 2px;
     position: relative;
   }
@@ -449,15 +448,14 @@ margin-left: 5px;
   position: absolute;
   width: 134px;
   background-color: #faba48;
-  top: 82%;
-  margin-left: -12px;
+  top: 106%;
+  margin-left: -8px;
   border-radius: 9px;
   padding-left: 0;
   display: none;
   box-shadow: 0 0 7px #d8d3b9;
   z-index: 1;
   font-weight: 400;
-  
 }
 
 .conten__logo-strol::after {
@@ -488,9 +486,7 @@ margin-left: 5px;
 
 .input-logo-search {
   width: 100%;
-
 }
-
 
 .input-logo__search{
   width: 100%;
@@ -499,6 +495,7 @@ margin-left: 5px;
   padding-left: 9px;
   outline: none;
   border: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
 }
 .header__logo-link-icon{
   font-size: 15px;
