@@ -25,13 +25,13 @@
     .logo-img img {
         height: 160px;
         margin: auto;
-        margin-top: -20px;
+        margin-top: -4px;
     }
 
     .logo-list {
         display: block;
         padding: 0px;
-        margin: -3px 1px 0;
+        margin: 5px 0px 0;
       }
       
       .logo-cart {
@@ -81,12 +81,6 @@
         height: 78px;
     }
 
-    .logo-cart-icon {
-    font-size: 3.8rem;
-    padding: 8px;
-    margin: 43px 38px 0;
-    margin-left: 209px;
-    }
 
     
    
@@ -115,6 +109,26 @@
         left: -139%;
     }
     
+    .logo-img {
+        margin-left: 140px;
+    }
+
+    .logo-list {
+        display: block;
+        padding: 0px;
+        margin: 5px -23px 0;
+    }
+
+    .logo-img {
+        margin-left: 218px;
+    }
+
+    .logo-cart-icon {
+      font-size: 3.8rem;
+      padding: 8px;
+      margin: 56px 38px 0;
+     margin-left: 209px;
+    }
 }
 
 /* pc */
@@ -146,14 +160,21 @@
      }
 
      .logo-img img {
-        height: 120px;
-        margin-top: -8px;
-        margin-left: -166px;
-    }
-    
+     height: 126px;
+     margin-top: 7px;
+     margin-left: 42px;
+     }
+
+     .logo-cart-icon {
+    font-size: 3.8rem;
+    padding: 8px;
+    margin: 43px 38px 0;
+    margin-left: 209px;
+    } 
+
     .logo-cart-icon {
-        font-size: 3.4rem;
-        margin: 30px 13px 0;
+     font-size: 3.4rem;
+     margin: 46px 45px 0;
     }
 
     .logo-list-icon {
