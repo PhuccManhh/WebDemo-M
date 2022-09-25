@@ -152,8 +152,8 @@
     }
     
     .logo-cart-icon {
-        font-size: 3.5rem;
-        margin: 31px 6px 0;
+        font-size: 3.4rem;
+        margin: 30px 13px 0;
     }
 
     .logo-list-icon {
@@ -291,4 +291,10 @@
         font-size: 1.8rem;
         margin: auto;
     }
+
+    .logo-cart-list {
+        display: block;
+        padding: 0px;
+        margin: 1px 1px 0;
+      }
 }

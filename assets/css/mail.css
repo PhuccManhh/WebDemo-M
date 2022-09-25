@@ -23,7 +23,7 @@
 .logo-list-icon {
   font-size: 4rem;
   padding: 10px ;
-  margin: 35px 20px 0;
+  margin: 35px 24px 0;
   color: #f00000;
 }
 
@@ -376,6 +376,14 @@ margin-left: 5px;
 .selec-input__link:hover {
   background-color: rgb(147 86 22);
 }
+
+
+.logo-cart-list {
+  height: 100%; 
+  
+}
+  
+
   /* ...ALL... */
 
 
